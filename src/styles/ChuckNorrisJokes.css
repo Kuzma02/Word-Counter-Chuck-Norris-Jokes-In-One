@@ -1,0 +1,44 @@
+.chuck-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  justify-content: center;
+  row-gap: 10px;
+  padding-top: 30px;
+}
+
+.joke{
+  margin-top: 30px;
+  border: 1px solid black;
+  padding: 20px 20px;
+  width: 50%;
+  text-align: center;
+}
+
+
+@media(max-width: 550px){
+  .chuck-main h1{
+    font-size: 20px;
+  }
+  
+  .chuck-main p{
+    font-size: 15px;
+  }
+  
+  .joke{
+    font-size: 15px;
+    width: 70%;
+  }
+}
+
+@media(max-width: 360px){
+  .chuck-main p{
+    font-size: 13px;
+  }
+  
+  .joke{
+    font-size: 13px;
+    width: 70%;
+  }
+}

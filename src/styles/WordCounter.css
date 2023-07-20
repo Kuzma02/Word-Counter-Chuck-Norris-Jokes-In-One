@@ -1,0 +1,90 @@
+.wordcounter-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wordcounter-main h1{
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wordcounter-main p:nth-child(1){
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.wordcounter-input{
+  border: 1px solid lightgray;
+  font-size: 20px;
+  text-indent: 10px;
+  padding: 10px 0px;
+  outline: none;
+  resize: none;
+
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    max-width:90%;
+    margin: 0px 20px;
+}
+
+.clear-btn:disabled {
+  background-color: #858585;
+  cursor: not-allowed;
+}
+
+.clear-btn{
+  background-color: #bc4242;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 15px auto auto;
+    padding: 5px 15px;
+    width: 150px;
+}
+
+.wordcounter-bottom button{
+  background-color: #1f4690;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+  min-width: 170px;
+  padding: 10px 15px;
+  border: 0px;
+  outline: none;
+}
+
+@media(max-width: 950px){
+  .wordcounter-input{
+    width: 500px;
+  }
+}
+
+@media(max-width: 515px){
+  .wordcounter-input{
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media(max-width: 420px){
+  .wordcounter-input{
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media(max-width: 379px){
+  .wordcounter-bottom{
+    text-align: center;
+  }
+}

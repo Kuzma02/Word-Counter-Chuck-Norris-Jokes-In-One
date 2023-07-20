@@ -1,0 +1,32 @@
+.pagenotfound-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.pagenotfound-main a{
+  background-color: #1f4690;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    min-width: 170px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.pagenotfound-main img{
+  width: 50%;
+}
+
+@media(max-width: 500px){
+  .pagenotfound-main img{
+    width: 80%;
+  }
+
+  .pagenotfound-main h1{
+    font-size: 20px;
+  }
+}
