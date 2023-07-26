@@ -1,3 +1,11 @@
+# Word counter and Chuck Norris jokes in one app
+
+# Word counter: 
+![word counter](https://github.com/Kuzma02/Word-Counter-Chuck-Norris-Jokes-In-One/assets/138793624/6848ec17-7ca8-4f34-a23b-6a78fbd8ca99)
+
+# Chuck Norris jokes. You access it via /jokes:
+![chuck norris](https://github.com/Kuzma02/Word-Counter-Chuck-Norris-Jokes-In-One/assets/138793624/1c684bd6-cc8e-4ccd-bb7f-1ddb6fc320a9)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
